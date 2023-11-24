@@ -7,7 +7,7 @@ def create_stakeholder():
     account.append(Name)
     company = input("\nCompany Name:")
     account.append(company)
-    investing_amount = float(input("\nInvesting Amount:"))
+    investing_amount = int(input("\nInvesting Amount:"))
     account.append(investing_amount)
     k=1
     while(k==1):
@@ -85,8 +85,8 @@ def log():
         else:
             print("\nchoose the write option..\n")
 def suggest_stackholder():
-    amount=input("\nHow much amount investment do u need: ")
-    type=input("\nwhich type of investment do u want:").lower()
+    amount=int(input("\nHow much amount investment do u need: "))
+    type=input("\nwhich type of investment do u want:")
     st.suggestion(amount,type)
 def client():
     while(True):

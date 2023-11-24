@@ -17,4 +17,4 @@ class stake():
 ob=stake()
 print(type(lis))
 ob.ins(lis)
-#ob.display()
+
