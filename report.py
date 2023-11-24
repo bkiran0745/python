@@ -7,13 +7,13 @@ def create_stakeholder():
     account.append(Name)
     company = input("\nCompany Name:")
     account.append(company)
-    investing_amount = int(input("\nInvesting Amount:"))
+    investing_amount = float(input("\nInvesting Amount:"))
     account.append(investing_amount)
     k=1
     while(k==1):
         print("\n1.Bond Paper")
         print("2.Shares")
-        print("3.Cash")``
+        print("3.Cash")
         print("4.Land\n")
         try:
             k=0
