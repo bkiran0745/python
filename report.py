@@ -83,7 +83,7 @@ def log():
             print("\nThank you..!\n")
             break
         else:
-            print("\nchoose the write option..\n")
+            print("\nchoose the Right option..\n")
 def suggest_stackholder():
     amount=int(input("\nHow much amount investment do u need: "))
     type=input("\nwhich type of investment do u want:")
