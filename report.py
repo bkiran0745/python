@@ -98,6 +98,8 @@ def client():
             if st.validet_username(user):
                 st.Display(user)
                 print("\nYou Have Collabrated with\n",user)
+            else:
+                print("Sorry we for inconvience we do not have your reqrement")
         elif choice1=="2":
             suggest_stackholder()
         else:
@@ -120,7 +122,7 @@ while(True):
         else:
             print("\nChoose the correct option.. \n")
     except ValueError as e:  
-        print("\nEnter Integer values only..\n")
+        print("\nEnter proper values only..\n")
 
 
 
